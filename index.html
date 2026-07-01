@@ -108,7 +108,10 @@ opacity:.8;
 <p style="word-break:break-all;font-size:14px;">
 5LDbokaQcDQtkBcJqu4QsV8p9B1WyTc8L3BWYm3Fpump
 </p>
-
+  
+<button class="button" onclick="copyCA()">
+📋 Copy Contract Address
+</button>
 <a class="button telegram" href="https://t.me/BigBird0000001">
 Join Telegram
 </a>
@@ -124,6 +127,12 @@ Follow us on X
 </footer>
 
 </div>
+  <script>
+function copyCA() {
+  navigator.clipboard.writeText("5LDbokaQcDQtkBcJqu4QsV8p9B1WyTc8L3BWYm3Fpump");
+  alert("Contract address copied!");
+}
+  </script>
 
 </body>
 </html>
